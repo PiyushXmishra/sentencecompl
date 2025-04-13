@@ -14,8 +14,8 @@ interface GameProps {
   onBack: () => void;
 }
 
-const CORRECT_ORDER = ['different', 'turned', 'quick', 'outcome'];
-const TOTAL_TIME = 15; // 15 seconds
+const CORRECT_ORDER = ['quick', 'turned','different','outcome'];
+const TOTAL_TIME = 15;
 const TOTAL_SEGMENTS = 10;
 
 export const Game = ({ onBack }: GameProps) => {
